@@ -1,0 +1,108 @@
+@import url(reset.css);
+@import url(color.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.main_content{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.result_main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+
+.result_number{
+    background-color: hsla(256, 72%, 46%, 1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    border-radius: 50%;
+    
+}
+
+.result_text{
+    width: 200px;
+}
+
+.result_text p:first-of-type{
+    font-size: 20px;
+}
+
+.summary{
+    background-color: hsl(0, 0%, 100%); 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.notes_details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reaction{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color:  hsl(0, 100%, 67%, 0.2);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.memory{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: hsl(39, 100%, 56%, 0.2); 
+    border-radius: 5px;
+
+    
+}
+.verbal{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: hsl(166, 100%, 37%, 0.2);
+    border-radius: 5px;
+
+
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: hsl(234, 85%, 45%, 0.2);
+    border-radius: 5px;
+
+
+}
+
+.button{
+    margin: 10px;
+    padding: 10px 50px;
+    background-color: hsl(224, 30%, 27%);
+    border: hsl(224, 30%, 27%) ;
+    color: hsl(221, 100%, 96%);
+    border-radius: 20px;
+    
+}
